@@ -1,4 +1,4 @@
-if(screen.width < 800px){
+if(screen.width < 800){
     document.getElementByTagName("body")[0].innerHTML = "SORRY!<br/>This Website is currently not available for mobiles";
 }
 
