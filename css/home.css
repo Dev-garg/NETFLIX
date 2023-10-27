@@ -1,0 +1,113 @@
+.nav-block {
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    top: 0px;
+    height: fit-content;
+}
+
+.page-1 {
+    position: absolute;
+    top: 250px;
+    height: fit-content;
+}
+
+.nav>.col-3>img {
+    width: 9.25rem;
+    height: 7rem;
+}
+
+.lang {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 6px 20px;
+    color: white;
+    display: inline-block;
+    background-color: transparent;
+    width: fit-content;
+    font-size: medium;
+    display: block;
+    margin: auto;
+}
+
+.sign {
+    background-color: red;
+    color: white;
+    width: fit-content;
+    padding: 8px 12px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    border: none;
+    font-size: medium;
+}
+
+.page-1>.row>.col-10 {
+    color: white;
+    text-align: center;
+}
+
+.page-1>.row>.col-10>h1 {
+    font-size: 3em;
+}
+
+.page-1>.row>.col-10>.row>.col-8>input,
+.page-6>.row>.col-9>.row>.col-8>input {
+    background-color: transparent;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+
+.page-1>.row>.col-10>.row>.col-4>button,
+.page-6>.row>.col-9>.row>.col-4>button {
+    background-color: red;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 15px;
+}
+
+.page-2 {
+    background-color: black;
+    color: white;
+    padding: 100px 30px;
+}
+
+.page-2>.col-6>h1 {
+    font-size: 3rem;
+}
+
+.page-2>.col-6>h2 {
+    /* font-size: 3rem; */
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.page-3 {
+    background-color: black;
+    padding: 40px;
+}
+
+.page-4,
+.page-5,
+.page-6 {
+    background-color: black;
+}
+
+.page-3>.text,
+.page-4>.text {
+    padding: 150px 20px;
+    color: white;
+}
+
+.page-5 img {
+    width: 100%;
+}
