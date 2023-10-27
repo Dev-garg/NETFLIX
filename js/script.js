@@ -1,3 +1,8 @@
+if(screen.width < 800px){
+    document.getElementByTagName("body")[0].innerHTML = "SORRY!<br/>This Website is currently not available for mobiles";
+}
+
+
 var q1 = document.getElementById("whatIsNetflix");
 var q2 = document.getElementById("netflixCost");
 var q3 = document.getElementById("watch");
