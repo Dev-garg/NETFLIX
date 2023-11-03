@@ -1,6 +1,6 @@
 if(screen.width < 800){
     document.getElementsByTagName("body")[0].innerHTML = "SORRY!<br/>This Website is currently not available for mobiles";
-    document.getElementsByTagName("body")[0].style.cssText = "color:white;font-size:30px;";
+    document.getElementsByTagName("body")[0].style.cssText = "color:black;font-size:30px;background-color:white;";
 }
 
 
